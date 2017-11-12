@@ -1,0 +1,144 @@
+body{
+
+}
+
+.container{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 110%;
+    margin-top: 480px;
+    margin-left: 520px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+.button1 {
+    background-color: gray; 
+    color:white; 
+    border-radius: 20px;
+}
+
+#about{
+   
+    width: 800px;
+text-align: center; 
+    z-index: 2;
+    position: absolute;
+    margin-top: 850px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    font-weight: bolder;
+   margin-top: ;
+    margin-left: 180px;
+
+}
+
+h4{
+    font-size: 50px;
+}
+
+
+.logo{
+    z-index: 1; 
+    position: absolute;
+    width:550px;
+    margin-left: 317px;
+    margin-top: 200px;
+}
+
+h2{
+    font-family: 'Slabo 27px', serif;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: 1420px;
+    margin-left: 50px;
+
+}
+h3{
+
+    font-family: 'Slabo 27px', serif;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: 1420px;
+    margin-left: 1750px;
+
+}
+
+#icon1{
+    color: white;
+    display: inline-block;
+    z-index: 2;
+    position: absolute; 
+     margin-top: 1420px;
+    margin-left: 1915px;
+}
+#icon2{
+    color: white;
+    display: inline-block;
+    z-index: 2;
+    position: absolute; 
+     margin-top: 1420px;
+    margin-left: 1930px;
+}
+
+#icon3{
+    color: white;
+    display: inline-block;
+    z-index: 2;
+    position: absolute; 
+     margin-top: 1420px;
+    margin-left: 1950px;
+}
+
+
+
+
+
+.button1:hover {
+    background-color: #a67b1a;
+    color: white;
+}
+
+#fa{animation-name: angle;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	z-index: 1;
+	color: black;
+	font-size: 470%;
+	margin-top: 550px;
+	margin-left: 560px;
+
+}
+
+
+	
+@keyframes angle{
+	 
+	 0%{ color: gray; }
+	 
+	 100%{ color: #a67b1a;}
+	 
+    
+ }
